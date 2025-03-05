@@ -2,14 +2,15 @@ import styled from 'styled-components';
 
 const FooterWrapper = styled.footer`
     width: 100%;
+    height: fit-content;
     background: #bc6266;
     color: white;
     text-align: center;
     align-items: center;
-    height: 2vw;
+    padding-bottom: 0.5vw;
     padding-top: 0.5vw;
-    padding-bottom: 1.56em;
     font-family : 'Space Grotesk', sans-serif;
+    font-size: 1em;
 `;
 
 export default function Footer() {
