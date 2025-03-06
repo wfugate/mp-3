@@ -17,7 +17,7 @@ const FooterWrapper = styled.footer`
 export default function Footer() {
     return (
         <FooterWrapper>
-            All Rights Reserved by William Fugate <Link to="/credits">Credits</Link>&copy;
+            All Rights Reserved by William Fugate <Link to="">Credits</Link>&copy;
         </FooterWrapper>
     )
 }
