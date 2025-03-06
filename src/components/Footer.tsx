@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from "react-router-dom";
 
 const FooterWrapper = styled.footer`
     width: 100%;
@@ -16,7 +17,7 @@ const FooterWrapper = styled.footer`
 export default function Footer() {
     return (
         <FooterWrapper>
-            All Rights Reserved by William Fugate <a href="">Credits</a>&copy;
+            All Rights Reserved by William Fugate <Link to="/credits">Credits</Link>&copy;
         </FooterWrapper>
     )
 }
